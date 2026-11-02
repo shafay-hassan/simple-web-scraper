@@ -14,7 +14,7 @@ pip install -r requirements.txt
 python web_scraper.py
 
 **Output:**
-`data/quotes.csv` — clean, structured data
+`quotes.csv` — clean, structured data
 
 **Stack:** Python, BeautifulSoup, Requests, lxml
 
