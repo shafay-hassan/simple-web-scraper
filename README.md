@@ -16,9 +16,6 @@ python web_scraper.py
 **Output:**
 `data/quotes.csv` — clean, structured data
 
-**Extra-information:**
-An example of how my data scraping works
-
 **Stack:** Python, BeautifulSoup, Requests, lxml
 
 **License:** MIT
