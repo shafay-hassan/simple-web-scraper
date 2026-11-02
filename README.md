@@ -1,23 +1,24 @@
-# 01-static-scraper-light — Month 1
+# simple-web-scraper
 
-What it does:
-Scrapes open site that welcomes bots (quotes.toscrape.com), extracts quotes + authors using BeautifulSoup + requests, saves to structured CSV.
+Light, ethical scraper that extracts quotes and authors from quotes.toscrape.com — an open site that welcomes bots. Built with a clean, respectful approach that doesn't overload the target site.
 
-Imports used:
-- from bs4 import BeautifulSoup
-- import requests
+**Features:**
+- Uses BeautifulSoup and requests with session reuse
+- Handles request failures gracefully
+- Structured CSV output
 
-Light Protocol:
-- One session reused, 1 sec delay, don't crash site
-- try/except for request fail
-- Respects robots.txt
-
-Run:
+**Installation:**
 pip install -r requirements.txt
+
+**Usage:**
 python web_scraper.py
 
-Output:
-data/quotes.csv
+**Output:**
+`data/quotes.csv` — clean, structured data
 
-Stack: Python, BeautifulSoup, Requests
-License: MIT
+**Extra-information:**
+An example of how my data scraping works
+
+**Stack:** Python, BeautifulSoup, Requests, lxml
+
+**License:** MIT
